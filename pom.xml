@@ -19,7 +19,18 @@
         <module>cloud-provider-payment8001</module>
         <module>webtest</module>
         <module>cloud-consumer-order80</module>
+        <module>cloud-api-commons</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+    </dependencies>
 
     <!--    pom表示这是一个总的父工程,项目的打包方式,jar为Java工程,war为web工程-->
     <packaging>pom</packaging>
